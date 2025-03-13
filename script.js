@@ -1,6 +1,6 @@
 var dateDiffInDays = function (date1, date2) {
   //   write your code here
-	let diffInTime= date2.toDateStrings.getTime() - date1.toDateStrings.getTime();
+	let diffInTime= date2.getTime() - date1.getTime();
 	let days=Math.round(diffInTime/(1000*60*60*24);
 						return days;
 )};
