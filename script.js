@@ -6,9 +6,6 @@ var dateDiffInDays = function (date1, date2) {
 	let days=diffInTime/(1000*60*60*24);
 						return days;
 )
-console.log(dateDiffInDays("2022-03-01", "2022-03-15")); // 14
-        console.log(dateDiffInDays("2022-03-01", "2022-03-01")); // 0
-        console.log(dateDiffInDays("2022-03-15", "2022-03-01")); // -14
 
 };
 
