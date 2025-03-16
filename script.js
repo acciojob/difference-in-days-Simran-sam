@@ -5,7 +5,7 @@ var dateDiffInDays = function (date1, date2) {
 	let diffInTime= d2.getTime() - d1.getTime();
 	let days=Math.round(diffInTime/(1000*60*60*24));
 						return days;
-)
+
 
 };
 
